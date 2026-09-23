@@ -1,0 +1,28 @@
+{
+  "include": [
+    "src",
+    "dashboard",
+    "notebooks",
+    "submission"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "data",
+    "reports"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportCallIssue": "none",
+  "reportArgumentType": "none",
+  "reportIndexIssue": "none",
+  "reportOperatorIssue": "none",
+  "reportReturnType": "none",
+  "reportPrivateImportUsage": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownArgumentType": "none",
+  "pythonVersion": "3.14"
+}

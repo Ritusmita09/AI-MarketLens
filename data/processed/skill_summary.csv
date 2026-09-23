@@ -1,0 +1,18 @@
+summary_type,value,count,pct
+skill_frequency,AWS,20638,9.19
+skill_frequency,GCP,20552,9.15
+skill_frequency,TensorFlow,20552,9.15
+skill_frequency,Azure,20517,9.13
+skill_frequency,Scikit-learn,20511,9.13
+skill_frequency,NLP,20414,9.09
+skill_frequency,Python,20396,9.08
+skill_frequency,SQL,20322,9.05
+skill_frequency,Computer Vision,20313,9.04
+skill_frequency,R,20205,9.0
+skill_frequency,PyTorch,20185,8.99
+skill_category_frequency,ML,101975,45.4
+skill_category_frequency,Cloud,61707,27.47
+skill_category_frequency,Programming,60923,27.12
+skill_level_frequency,Basic,74992,33.39
+skill_level_frequency,Intermediate,74920,33.36
+skill_level_frequency,Advanced,74693,33.26

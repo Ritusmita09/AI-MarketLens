@@ -1,0 +1,263 @@
+{
+  "by_experience": [
+    {
+      "experience_level": "Entry",
+      "avg": 67474.0,
+      "median": 67470.0,
+      "min": 57608.0,
+      "max": 77382.0
+    },
+    {
+      "experience_level": "Mid",
+      "avg": 107507.0,
+      "median": 107542.0,
+      "min": 97572.0,
+      "max": 117416.0
+    },
+    {
+      "experience_level": "Senior",
+      "avg": 157490.0,
+      "median": 157468.0,
+      "min": 147556.0,
+      "max": 167468.0
+    }
+  ],
+  "by_country": [
+    {
+      "country": "Australia",
+      "avg": 111485.0,
+      "median": 107806.0,
+      "min": 57664.0,
+      "max": 167468.0
+    },
+    {
+      "country": "Canada",
+      "avg": 110314.0,
+      "median": 107476.0,
+      "min": 57756.0,
+      "max": 167232.0
+    },
+    {
+      "country": "Germany",
+      "avg": 110898.0,
+      "median": 107532.0,
+      "min": 57786.0,
+      "max": 167185.0
+    },
+    {
+      "country": "India",
+      "avg": 110397.0,
+      "median": 107285.0,
+      "min": 57912.0,
+      "max": 167341.0
+    },
+    {
+      "country": "UK",
+      "avg": 111039.0,
+      "median": 107638.0,
+      "min": 57608.0,
+      "max": 167178.0
+    },
+    {
+      "country": "USA",
+      "avg": 111058.0,
+      "median": 107686.0,
+      "min": 57754.0,
+      "max": 167156.0
+    }
+  ],
+  "by_job_title": [
+    {
+      "job_title": "AI Researcher",
+      "avg": 110575.0,
+      "median": 107483.0,
+      "min": 58132.0,
+      "max": 167156.0
+    },
+    {
+      "job_title": "Applied Scientist",
+      "avg": 111382.0,
+      "median": 107826.0,
+      "min": 57754.0,
+      "max": 167468.0
+    },
+    {
+      "job_title": "Data Analyst",
+      "avg": 111343.0,
+      "median": 107717.0,
+      "min": 57608.0,
+      "max": 167406.0
+    },
+    {
+      "job_title": "Data Scientist",
+      "avg": 110740.0,
+      "median": 107621.0,
+      "min": 57786.0,
+      "max": 167222.0
+    },
+    {
+      "job_title": "MLOps Engineer",
+      "avg": 110348.0,
+      "median": 107214.0,
+      "min": 58002.0,
+      "max": 167341.0
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "avg": 110817.0,
+      "median": 107528.0,
+      "min": 57780.0,
+      "max": 167431.0
+    }
+  ],
+  "by_industry": [
+    {
+      "industry": "Education",
+      "avg": 110797.0,
+      "median": 107479.0,
+      "min": 57780.0,
+      "max": 167406.0
+    },
+    {
+      "industry": "Finance",
+      "avg": 111049.0,
+      "median": 107575.0,
+      "min": 57754.0,
+      "max": 167468.0
+    },
+    {
+      "industry": "Healthcare",
+      "avg": 110735.0,
+      "median": 107539.0,
+      "min": 57845.0,
+      "max": 167232.0
+    },
+    {
+      "industry": "Retail",
+      "avg": 111071.0,
+      "median": 107628.0,
+      "min": 57608.0,
+      "max": 167431.0
+    },
+    {
+      "industry": "Tech",
+      "avg": 110675.0,
+      "median": 107552.0,
+      "min": 58001.0,
+      "max": 167222.0
+    }
+  ],
+  "by_remote_type": [
+    {
+      "remote_type": "Hybrid",
+      "avg": 111169.0,
+      "median": 107677.0,
+      "min": 57608.0,
+      "max": 167406.0
+    },
+    {
+      "remote_type": "Onsite",
+      "avg": 110507.0,
+      "median": 107430.0,
+      "min": 57754.0,
+      "max": 167468.0
+    },
+    {
+      "remote_type": "Remote",
+      "avg": 110911.0,
+      "median": 107565.0,
+      "min": 57786.0,
+      "max": 167222.0
+    }
+  ],
+  "by_company_type": [
+    {
+      "company_type": "MNC",
+      "avg": 111381.0,
+      "median": 107687.0,
+      "min": 57608.0,
+      "max": 167468.0
+    },
+    {
+      "company_type": "Research Lab",
+      "avg": 110576.0,
+      "median": 107400.0,
+      "min": 57664.0,
+      "max": 167431.0
+    },
+    {
+      "company_type": "Startup",
+      "avg": 110643.0,
+      "median": 107586.0,
+      "min": 57786.0,
+      "max": 167232.0
+    }
+  ],
+  "by_company_size": [
+    {
+      "company_size": "Large",
+      "avg": 110926.0,
+      "median": 107571.0,
+      "min": 57754.0,
+      "max": 167222.0
+    },
+    {
+      "company_size": "Medium",
+      "avg": 110765.0,
+      "median": 107544.0,
+      "min": 57608.0,
+      "max": 167468.0
+    },
+    {
+      "company_size": "Small",
+      "avg": 110903.0,
+      "median": 107576.0,
+      "min": 57786.0,
+      "max": 167406.0
+    }
+  ],
+  "by_year": [
+    {
+      "posted_year": 2020,
+      "period_type": "Historical",
+      "avg": 110757.0,
+      "median": 107539.0
+    },
+    {
+      "posted_year": 2021,
+      "period_type": "Historical",
+      "avg": 111400.0,
+      "median": 107760.0
+    },
+    {
+      "posted_year": 2022,
+      "period_type": "Historical",
+      "avg": 110873.0,
+      "median": 107623.0
+    },
+    {
+      "posted_year": 2023,
+      "period_type": "Historical",
+      "avg": 111395.0,
+      "median": 107722.0
+    },
+    {
+      "posted_year": 2024,
+      "period_type": "Historical",
+      "avg": 110348.0,
+      "median": 107378.0
+    },
+    {
+      "posted_year": 2025,
+      "period_type": "Projected",
+      "avg": 110617.0,
+      "median": 107471.0
+    },
+    {
+      "posted_year": 2026,
+      "period_type": "Projected",
+      "avg": 110681.0,
+      "median": 107461.0
+    }
+  ]
+}

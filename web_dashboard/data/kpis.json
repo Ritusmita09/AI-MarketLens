@@ -1,0 +1,22 @@
+{
+  "total_job_postings": 50000,
+  "avg_salary_usd": 110864.89,
+  "median_salary_usd": 107565.25,
+  "min_salary_mid": 57607.5,
+  "max_salary_mid": 167468.0,
+  "remote_job_pct": 32.96,
+  "countries_covered": 6,
+  "job_roles": 6,
+  "skills_tracked": 11,
+  "historical_jobs": 35815,
+  "projected_jobs": 14185,
+  "entry_avg_salary": 67473.51,
+  "mid_avg_salary": 107507.12,
+  "senior_avg_salary": 157490.18,
+  "senior_premium_ratio": 2.3341,
+  "salary_min_usd": 50000,
+  "salary_max_usd": 180000,
+  "total_market_ai_jobs": 1734522,
+  "avg_market_salary": 124778,
+  "avg_market_remote_pct": 56.4
+}

@@ -1,0 +1,38 @@
+{
+  "definition": {
+    "salary_mid": "(salary_min_usd + salary_max_usd) / 2.0",
+    "period_type": "Historical if posted_year <= 2024 else Projected",
+    "remote_flag": "1 if remote_type == 'Remote' else 0"
+  },
+  "job_counts": {
+    "total_job_postings": 50000,
+    "historical_jobs": 35815,
+    "projected_jobs": 14185
+  },
+  "salary": {
+    "mean_salary_mid": 110864.89,
+    "median_salary_mid": 107565.25,
+    "min_salary_mid": 57607.5,
+    "max_salary_mid": 167468.0,
+    "min_salary_min_usd": 50000,
+    "max_salary_max_usd": 180000,
+    "entry_avg_salary": 67473.51,
+    "mid_avg_salary": 107507.12,
+    "senior_avg_salary": 157490.18,
+    "senior_entry_ratio": 2.3341
+  },
+  "dimensions": {
+    "countries_covered": 6,
+    "unique_job_roles": 6,
+    "skills_tracked": 11,
+    "remote_job_pct": 32.96,
+    "top_country": "UK",
+    "top_job_role": "MLOps Engineer",
+    "top_skill_by_frequency": "AWS"
+  },
+  "market_level": {
+    "total_market_ai_jobs": 1734522,
+    "mean_market_avg_salary": 124778.0,
+    "mean_market_remote_pct": 56.4
+  }
+}

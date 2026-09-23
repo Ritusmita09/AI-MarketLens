@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI MarketLens — Global AI Job Market Intelligence</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Loading overlay -->
+<div id="loading-overlay" style="
+  position:fixed; inset:0; background:#0f172a; z-index:9999;
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:16px; color:#94a3b8; font-size:15px;">
+  <div style="font-size:32px; animation: spin 1s linear infinite;">⊙</div>
+  Loading dashboard data…
+</div>
+<style>
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
+<!-- ============================================================
+     Header
+     ============================================================ -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <div class="logo-icon">📊</div>
+      <div>
+        <h1>AI MarketLens</h1>
+        <div class="tagline">Global AI & Data Science Job Market Intelligence</div>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <button class="nav-link active" data-section="section-kpi">Overview</button>
+      <button class="nav-link" data-section="section-market">Job Market</button>
+      <button class="nav-link" data-section="section-salary">Salary</button>
+      <button class="nav-link" data-section="section-skills">Skills</button>
+      <button class="nav-link" data-section="section-remote">Remote Work</button>
+      <button class="nav-link" data-section="section-country">Country Trends</button>
+      <button class="nav-link" data-section="section-roles">Roles</button>
+      <button class="nav-link" data-section="section-methodology">Methodology</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================================================
+     Hero
+     ============================================================ -->
+<div class="page-wrapper">
+  <div class="hero">
+    <div class="hero-title">AI & Data Science Job Market Intelligence</div>
+    <div class="hero-subtitle">
+      Interactive analytics platform built on 50,000 job postings across 6 countries,
+      6 roles, and 7 years (2020–2026). Academic internship project — AI MarketLens.
+    </div>
+  </div>
+
+  <!-- ============================================================
+       Section: KPI Overview
+       ============================================================ -->
+  <section class="section" id="section-kpi">
+    <div class="section-title">📈 Key Metrics</div>
+    <div class="section-subtitle">Top-level KPIs from the processed dataset</div>
+
+    <div class="kpi-grid">
+      <div class="kpi-card accent-card">
+        <div class="kpi-label">Total Job Postings</div>
+        <div class="kpi-value" id="kpi-total-jobs">—</div>
+        <div class="kpi-sub">50k sample dataset</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Average Salary</div>
+        <div class="kpi-value" id="kpi-avg-salary">—</div>
+        <div class="kpi-sub">salary midpoint (USD)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Median Salary</div>
+        <div class="kpi-value" id="kpi-median-salary">—</div>
+        <div class="kpi-sub">salary midpoint (USD)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Remote Job %</div>
+        <div class="kpi-value" id="kpi-remote-pct">—</div>
+        <div class="kpi-sub">of sample postings</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Countries</div>
+        <div class="kpi-value" id="kpi-countries">—</div>
+        <div class="kpi-sub">covered in dataset</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Job Roles</div>
+        <div class="kpi-value" id="kpi-roles">—</div>
+        <div class="kpi-sub">distinct titles</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Skills Tracked</div>
+        <div class="kpi-value" id="kpi-skills">—</div>
+        <div class="kpi-sub">technical skills</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Historical Jobs</div>
+        <div class="kpi-value" id="kpi-hist-jobs">—</div>
+        <div class="kpi-sub">2020–2024</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Projected Jobs</div>
+        <div class="kpi-value" id="kpi-proj-jobs">—</div>
+        <div class="kpi-sub">2025–2026 (synthetic)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Entry Avg Salary</div>
+        <div class="kpi-value" id="kpi-entry-sal">—</div>
+        <div class="kpi-sub">USD midpoint</div>
+      </div>
+      <div class="kpi-card accent-card">
+        <div class="kpi-label">Senior Avg Salary</div>
+        <div class="kpi-value" id="kpi-senior-sal">—</div>
+        <div class="kpi-sub">USD midpoint</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Senior/Entry Ratio</div>
+        <div class="kpi-value" id="kpi-premium">—</div>
+        <div class="kpi-sub">salary premium</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 1 — Global Job Market
+       ============================================================ -->
+  <section class="section" id="section-market">
+    <div class="section-title">🌍 Global Job Market</div>
+    <div class="section-subtitle">
+      Sample dataset: 50,000 job postings.
+      <span class="badge badge-blue">Blue bars</span> = Historical (2020–2024) &nbsp;
+      <span class="badge badge-amber">Amber bars</span> = Projected (2025–2026)
+    </div>
+
+    <div class="charts-grid charts-grid-2">
+      <div class="chart-card">
+        <div class="chart-title">Job Postings by Year</div>
+        <div class="chart-subtitle">Annual distribution across 7 years</div>
+        <div class="chart-canvas-wrapper">
+          <canvas id="chart-jobs-by-year"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Job Postings by Role</div>
+        <div class="chart-subtitle">Distribution across 6 job titles</div>
+        <div class="chart-canvas-wrapper">
+          <canvas id="chart-jobs-by-role"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 2 — Salary Intelligence
+       ============================================================ -->
+  <section class="section" id="section-salary">
+    <div class="section-title">💰 Salary Intelligence</div>
+    <div class="section-subtitle">
+      salary_mid = (salary_min_usd + salary_max_usd) / 2.
+      All values in USD. Average and Median shown per group.
+    </div>
+
+    <div class="alert alert-info">
+      <span class="alert-icon">ℹ</span>
+      <span>In this synthetic dataset, salary varies meaningfully only with
+        <strong>experience_level</strong>. Country, industry, role, and remote-type effects
+        are negligible (&lt;$1,100 range) — a consequence of synthetic uniform generation.</span>
+    </div>
+
+    <div class="charts-grid charts-grid-2">
+      <div class="chart-card">
+        <div class="chart-title">Salary by Experience Level</div>
+        <div class="chart-subtitle">Primary salary driver in this dataset</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-salary-exp"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Salary by Country</div>
+        <div class="chart-subtitle">Average and median salary midpoint</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-salary-country"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Salary by Job Role</div>
+        <div class="chart-subtitle">Average and median salary midpoint</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-salary-role"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Salary by Industry</div>
+        <div class="chart-subtitle">Average and median salary midpoint</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-salary-industry"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Salary by Remote Type</div>
+        <div class="chart-subtitle">Remote vs Hybrid vs Onsite</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-salary-remote"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 3 — Skills Intelligence
+       ============================================================ -->
+  <section class="section" id="section-skills">
+    <div class="section-title">🧠 Skills Intelligence</div>
+    <div class="section-subtitle">
+      Source: skills_demand.csv (224,605 rows) — analysed independently from job postings.
+    </div>
+
+    <div class="alert alert-warn">
+      <span class="alert-icon">⚠</span>
+      <span><strong>Data Limitation:</strong>
+        The <code>skills_demand.job_id</code> column does not reliably match
+        <code>ai_jobs.job_id</code> (only 4.1% overlap — dataset generation artifact).
+        Skills are analysed as an independent dataset.
+        Country-level top-skill data uses <code>country_ai_trends.top_skill</code>.</span>
+    </div>
+
+    <div class="charts-grid charts-grid-2">
+      <div class="chart-card">
+        <div class="chart-title">Skill Demand (frequency)</div>
+        <div class="chart-subtitle">Count of rows per skill across 224,605 records</div>
+        <div class="chart-canvas-wrapper" style="height:340px;">
+          <canvas id="chart-skill-freq"></canvas>
+        </div>
+      </div>
+      <div class="charts-grid" style="gap:16px; display:flex; flex-direction:column;">
+        <div class="chart-card" style="flex:1;">
+          <div class="chart-title">Skill Category</div>
+          <div class="chart-subtitle">Programming / ML / Cloud split</div>
+          <div class="chart-canvas-wrapper" style="height:170px;">
+            <canvas id="chart-skill-cat"></canvas>
+          </div>
+        </div>
+        <div class="chart-card" style="flex:1;">
+          <div class="chart-title">Skill Level Required</div>
+          <div class="chart-subtitle">Basic / Intermediate / Advanced</div>
+          <div class="chart-canvas-wrapper" style="height:170px;">
+            <canvas id="chart-skill-level"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 4 — Remote Work
+       ============================================================ -->
+  <section class="section" id="section-remote">
+    <div class="section-title">🏠 Remote Work Analysis</div>
+    <div class="section-subtitle">Work mode distribution across sample and market datasets</div>
+
+    <div class="charts-grid charts-grid-2">
+      <div class="chart-card">
+        <div class="chart-title">Work Mode Distribution</div>
+        <div class="chart-subtitle">Remote / Hybrid / Onsite split</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-remote-overall"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Remote % by Country</div>
+        <div class="chart-subtitle">Share of Remote postings per country</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-remote-country"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Remote % by Experience Level</div>
+        <div class="chart-subtitle">Entry / Mid / Senior remote work share</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-remote-exp"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 5 — Country Trends
+       ============================================================ -->
+  <section class="section" id="section-country">
+    <div class="section-title">🌐 Country AI Market Trends</div>
+    <div class="section-subtitle">
+      Source: country_ai_trends.csv — market-level aggregates (6 countries × 7 years).
+      Dashed segments = Projected (2025–2026). These are NOT from the 50k job sample.
+    </div>
+
+    <div class="alert alert-info">
+      <span class="alert-icon">ℹ</span>
+      <span>Market totals (4,000–78,139 per country-year) are broader than the ~1,100–1,300
+        rows per country-year in the 50k sample. These represent independent data populations.</span>
+    </div>
+
+    <div class="charts-grid charts-grid-2">
+      <div class="chart-card">
+        <div class="chart-title">Total Market AI Jobs by Country & Year</div>
+        <div class="chart-subtitle">Dashed lines = Projected (2025–2026)</div>
+        <div class="chart-canvas-wrapper" style="height:320px;">
+          <canvas id="chart-market-jobs"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Market Average Salary by Country & Year</div>
+        <div class="chart-subtitle">USD — market-level aggregate</div>
+        <div class="chart-canvas-wrapper" style="height:320px;">
+          <canvas id="chart-market-salary"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Market Remote % by Country & Year</div>
+        <div class="chart-subtitle">Percentage of remote AI jobs (market-wide)</div>
+        <div class="chart-canvas-wrapper" style="height:320px;">
+          <canvas id="chart-market-remote"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 6 — Role Intelligence
+       ============================================================ -->
+  <section class="section" id="section-roles">
+    <div class="section-title">💼 Role Intelligence</div>
+    <div class="section-subtitle">Job titles, role categories, industries, and cities</div>
+
+    <div class="charts-grid charts-grid-2">
+      <div class="chart-card">
+        <div class="chart-title">Role Category Split</div>
+        <div class="chart-subtitle">Analytics vs Engineering roles</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-role-cat"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Company Type Distribution</div>
+        <div class="chart-subtitle">Startup / MNC / Research Lab</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-company-type"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Postings by Industry</div>
+        <div class="chart-subtitle">5 industry sectors</div>
+        <div class="chart-canvas-wrapper"><canvas id="chart-industry"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Top Cities (Onsite + Hybrid)</div>
+        <div class="chart-subtitle">Excluding city = "Remote"</div>
+        <div class="chart-canvas-wrapper" style="height:340px;">
+          <canvas id="chart-cities"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Section 7 — Methodology & Limitations
+       ============================================================ -->
+  <section class="section" id="section-methodology">
+    <div class="section-title">📋 Methodology & Limitations</div>
+    <div class="section-subtitle">Transparency about data sources, methods, and known issues</div>
+
+    <div class="alert alert-warn" style="margin-bottom:24px;">
+      <span class="alert-icon">⚠</span>
+      <span><strong>Synthetic Dataset:</strong>
+        This dataset was generated synthetically with near-uniform distributions.
+        All categorical dimensions show approximately equal proportions.
+        Findings should NOT be used for real-world career or business decisions.</span>
+    </div>
+
+    <div class="data-table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Limitation</th>
+            <th>Impact</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Synthetic uniform data</td>
+            <td>Near-equal distributions — no real imbalances</td>
+            <td><span class="badge badge-red">Critical</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>skills_demand ↔ ai_jobs join failure (4.1%)</td>
+            <td>Job-level skill enrichment unavailable</td>
+            <td><span class="badge badge-red">Critical</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>2025–2026 projected years (28.4% of rows)</td>
+            <td>Must not be treated as observed history</td>
+            <td><span class="badge badge-amber">Medium</span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>employment_type = Full-time only</td>
+            <td>Zero variance — excluded from analysis</td>
+            <td><span class="badge badge-amber">Medium</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Salary varies only by experience_level</td>
+            <td>Country/industry/role salary differences &lt;$1,100</td>
+            <td><span class="badge badge-amber">Medium</span></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>6 countries, 6 roles, 11 skills only</td>
+            <td>Narrow scope — not globally representative</td>
+            <td><span class="badge badge-amber">Medium</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Two independent data populations</td>
+            <td>50k sample ≠ country_ai_trends market data</td>
+            <td><span class="badge badge-blue">Documented</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:32px;">
+      <div class="section-title" style="font-size:15px; margin-bottom:12px;">Data Sources</div>
+      <div class="data-table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr><th>File</th><th>Rows</th><th>Usage</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>powerbi_jobs.csv (from ai_jobs)</td><td>50,000</td><td>Main analysis, salary, remote, roles</td></tr>
+            <tr><td>powerbi_skills.csv (from skills_demand)</td><td>224,605</td><td>Skills analysis (independent)</td></tr>
+            <tr><td>powerbi_country_trends.csv</td><td>42</td><td>Market-level trends, YoY growth</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</div><!-- end .page-wrapper -->
+
+<!-- ============================================================
+     Footer
+     ============================================================ -->
+<footer class="site-footer">
+  <strong>AI MarketLens</strong> — AI-Powered Global Data Science & AI Job Market Intelligence Platform
+  <br>Academic Internship Project &nbsp;·&nbsp; Phase 3 — Web Dashboard
+  <br><small>All analytics derived from synthetic Kaggle dataset. Not for commercial use.</small>
+</footer>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<!-- App scripts -->
+<script src="js/charts.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,800 @@
+{
+  "sample_jobs_by_country": [
+    {
+      "country": "Australia",
+      "job_count": 8276,
+      "avg_salary": 111485.0,
+      "remote_pct": 32.0
+    },
+    {
+      "country": "Canada",
+      "job_count": 8303,
+      "avg_salary": 110314.0,
+      "remote_pct": 33.4
+    },
+    {
+      "country": "Germany",
+      "job_count": 8345,
+      "avg_salary": 110898.0,
+      "remote_pct": 33.0
+    },
+    {
+      "country": "India",
+      "job_count": 8350,
+      "avg_salary": 110397.0,
+      "remote_pct": 33.1
+    },
+    {
+      "country": "UK",
+      "job_count": 8452,
+      "avg_salary": 111039.0,
+      "remote_pct": 33.1
+    },
+    {
+      "country": "USA",
+      "job_count": 8274,
+      "avg_salary": 111058.0,
+      "remote_pct": 33.1
+    }
+  ],
+  "market_trends": [
+    {
+      "country": "USA",
+      "year": 2020,
+      "total_ai_jobs": 78050,
+      "avg_salary_usd": 109581,
+      "remote_percentage": 81,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2021,
+      "total_ai_jobs": 5322,
+      "avg_salary_usd": 116022,
+      "remote_percentage": 30,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2022,
+      "total_ai_jobs": 55204,
+      "avg_salary_usd": 157026,
+      "remote_percentage": 39,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "total_ai_jobs": 42906,
+      "avg_salary_usd": 139108,
+      "remote_percentage": 25,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "total_ai_jobs": 18847,
+      "avg_salary_usd": 103070,
+      "remote_percentage": 63,
+      "top_skill": "AWS",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "total_ai_jobs": 28264,
+      "avg_salary_usd": 157838,
+      "remote_percentage": 78,
+      "top_skill": "Computer Vision",
+      "period_type": "Projected"
+    },
+    {
+      "country": "USA",
+      "year": 2026,
+      "total_ai_jobs": 49563,
+      "avg_salary_usd": 88686,
+      "remote_percentage": 29,
+      "top_skill": "Scikit-learn",
+      "period_type": "Projected"
+    },
+    {
+      "country": "India",
+      "year": 2020,
+      "total_ai_jobs": 61572,
+      "avg_salary_usd": 141737,
+      "remote_percentage": 63,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2021,
+      "total_ai_jobs": 63718,
+      "avg_salary_usd": 160170,
+      "remote_percentage": 37,
+      "top_skill": "TensorFlow",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2022,
+      "total_ai_jobs": 32285,
+      "avg_salary_usd": 155432,
+      "remote_percentage": 67,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2023,
+      "total_ai_jobs": 23361,
+      "avg_salary_usd": 132495,
+      "remote_percentage": 31,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2024,
+      "total_ai_jobs": 23453,
+      "avg_salary_usd": 107965,
+      "remote_percentage": 26,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2025,
+      "total_ai_jobs": 24784,
+      "avg_salary_usd": 129592,
+      "remote_percentage": 26,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "total_ai_jobs": 78139,
+      "avg_salary_usd": 97930,
+      "remote_percentage": 65,
+      "top_skill": "AWS",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Germany",
+      "year": 2020,
+      "total_ai_jobs": 30183,
+      "avg_salary_usd": 135985,
+      "remote_percentage": 69,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2021,
+      "total_ai_jobs": 17048,
+      "avg_salary_usd": 108568,
+      "remote_percentage": 78,
+      "top_skill": "Azure",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2022,
+      "total_ai_jobs": 31930,
+      "avg_salary_usd": 124738,
+      "remote_percentage": 63,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2023,
+      "total_ai_jobs": 14857,
+      "avg_salary_usd": 130421,
+      "remote_percentage": 37,
+      "top_skill": "AWS",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2024,
+      "total_ai_jobs": 48433,
+      "avg_salary_usd": 131697,
+      "remote_percentage": 40,
+      "top_skill": "Computer Vision",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2025,
+      "total_ai_jobs": 61307,
+      "avg_salary_usd": 76942,
+      "remote_percentage": 79,
+      "top_skill": "Azure",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Germany",
+      "year": 2026,
+      "total_ai_jobs": 21320,
+      "avg_salary_usd": 150323,
+      "remote_percentage": 68,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "UK",
+      "year": 2020,
+      "total_ai_jobs": 76091,
+      "avg_salary_usd": 88490,
+      "remote_percentage": 70,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2021,
+      "total_ai_jobs": 67009,
+      "avg_salary_usd": 138221,
+      "remote_percentage": 40,
+      "top_skill": "TensorFlow",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2022,
+      "total_ai_jobs": 39831,
+      "avg_salary_usd": 85227,
+      "remote_percentage": 84,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2023,
+      "total_ai_jobs": 37780,
+      "avg_salary_usd": 159436,
+      "remote_percentage": 69,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2024,
+      "total_ai_jobs": 62826,
+      "avg_salary_usd": 133255,
+      "remote_percentage": 29,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2025,
+      "total_ai_jobs": 15927,
+      "avg_salary_usd": 140333,
+      "remote_percentage": 83,
+      "top_skill": "AWS",
+      "period_type": "Projected"
+    },
+    {
+      "country": "UK",
+      "year": 2026,
+      "total_ai_jobs": 69344,
+      "avg_salary_usd": 77388,
+      "remote_percentage": 55,
+      "top_skill": "R",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Canada",
+      "year": 2020,
+      "total_ai_jobs": 27240,
+      "avg_salary_usd": 150343,
+      "remote_percentage": 74,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2021,
+      "total_ai_jobs": 42282,
+      "avg_salary_usd": 78606,
+      "remote_percentage": 75,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2022,
+      "total_ai_jobs": 29777,
+      "avg_salary_usd": 113169,
+      "remote_percentage": 73,
+      "top_skill": "SQL",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2023,
+      "total_ai_jobs": 70396,
+      "avg_salary_usd": 108982,
+      "remote_percentage": 66,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2024,
+      "total_ai_jobs": 72874,
+      "avg_salary_usd": 114911,
+      "remote_percentage": 71,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2025,
+      "total_ai_jobs": 8294,
+      "avg_salary_usd": 99435,
+      "remote_percentage": 45,
+      "top_skill": "SQL",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Canada",
+      "year": 2026,
+      "total_ai_jobs": 4000,
+      "avg_salary_usd": 164795,
+      "remote_percentage": 54,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Australia",
+      "year": 2020,
+      "total_ai_jobs": 70178,
+      "avg_salary_usd": 160724,
+      "remote_percentage": 49,
+      "top_skill": "Azure",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2021,
+      "total_ai_jobs": 50035,
+      "avg_salary_usd": 81059,
+      "remote_percentage": 30,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2022,
+      "total_ai_jobs": 19255,
+      "avg_salary_usd": 160260,
+      "remote_percentage": 26,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2023,
+      "total_ai_jobs": 18251,
+      "avg_salary_usd": 134856,
+      "remote_percentage": 62,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2024,
+      "total_ai_jobs": 23885,
+      "avg_salary_usd": 143568,
+      "remote_percentage": 71,
+      "top_skill": "SQL",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2025,
+      "total_ai_jobs": 61354,
+      "avg_salary_usd": 144132,
+      "remote_percentage": 79,
+      "top_skill": "GCP",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Australia",
+      "year": 2026,
+      "total_ai_jobs": 57347,
+      "avg_salary_usd": 108156,
+      "remote_percentage": 71,
+      "top_skill": "GCP",
+      "period_type": "Projected"
+    }
+  ],
+  "market_by_country_year": [
+    {
+      "country": "USA",
+      "year": 2020,
+      "total_ai_jobs": 78050,
+      "avg_salary_usd": 109581,
+      "remote_percentage": 81,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2021,
+      "total_ai_jobs": 5322,
+      "avg_salary_usd": 116022,
+      "remote_percentage": 30,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2022,
+      "total_ai_jobs": 55204,
+      "avg_salary_usd": 157026,
+      "remote_percentage": 39,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "total_ai_jobs": 42906,
+      "avg_salary_usd": 139108,
+      "remote_percentage": 25,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "total_ai_jobs": 18847,
+      "avg_salary_usd": 103070,
+      "remote_percentage": 63,
+      "top_skill": "AWS",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "total_ai_jobs": 28264,
+      "avg_salary_usd": 157838,
+      "remote_percentage": 78,
+      "top_skill": "Computer Vision",
+      "period_type": "Projected"
+    },
+    {
+      "country": "USA",
+      "year": 2026,
+      "total_ai_jobs": 49563,
+      "avg_salary_usd": 88686,
+      "remote_percentage": 29,
+      "top_skill": "Scikit-learn",
+      "period_type": "Projected"
+    },
+    {
+      "country": "India",
+      "year": 2020,
+      "total_ai_jobs": 61572,
+      "avg_salary_usd": 141737,
+      "remote_percentage": 63,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2021,
+      "total_ai_jobs": 63718,
+      "avg_salary_usd": 160170,
+      "remote_percentage": 37,
+      "top_skill": "TensorFlow",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2022,
+      "total_ai_jobs": 32285,
+      "avg_salary_usd": 155432,
+      "remote_percentage": 67,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2023,
+      "total_ai_jobs": 23361,
+      "avg_salary_usd": 132495,
+      "remote_percentage": 31,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2024,
+      "total_ai_jobs": 23453,
+      "avg_salary_usd": 107965,
+      "remote_percentage": 26,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2025,
+      "total_ai_jobs": 24784,
+      "avg_salary_usd": 129592,
+      "remote_percentage": 26,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "total_ai_jobs": 78139,
+      "avg_salary_usd": 97930,
+      "remote_percentage": 65,
+      "top_skill": "AWS",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Germany",
+      "year": 2020,
+      "total_ai_jobs": 30183,
+      "avg_salary_usd": 135985,
+      "remote_percentage": 69,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2021,
+      "total_ai_jobs": 17048,
+      "avg_salary_usd": 108568,
+      "remote_percentage": 78,
+      "top_skill": "Azure",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2022,
+      "total_ai_jobs": 31930,
+      "avg_salary_usd": 124738,
+      "remote_percentage": 63,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2023,
+      "total_ai_jobs": 14857,
+      "avg_salary_usd": 130421,
+      "remote_percentage": 37,
+      "top_skill": "AWS",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2024,
+      "total_ai_jobs": 48433,
+      "avg_salary_usd": 131697,
+      "remote_percentage": 40,
+      "top_skill": "Computer Vision",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2025,
+      "total_ai_jobs": 61307,
+      "avg_salary_usd": 76942,
+      "remote_percentage": 79,
+      "top_skill": "Azure",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Germany",
+      "year": 2026,
+      "total_ai_jobs": 21320,
+      "avg_salary_usd": 150323,
+      "remote_percentage": 68,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "UK",
+      "year": 2020,
+      "total_ai_jobs": 76091,
+      "avg_salary_usd": 88490,
+      "remote_percentage": 70,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2021,
+      "total_ai_jobs": 67009,
+      "avg_salary_usd": 138221,
+      "remote_percentage": 40,
+      "top_skill": "TensorFlow",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2022,
+      "total_ai_jobs": 39831,
+      "avg_salary_usd": 85227,
+      "remote_percentage": 84,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2023,
+      "total_ai_jobs": 37780,
+      "avg_salary_usd": 159436,
+      "remote_percentage": 69,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2024,
+      "total_ai_jobs": 62826,
+      "avg_salary_usd": 133255,
+      "remote_percentage": 29,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2025,
+      "total_ai_jobs": 15927,
+      "avg_salary_usd": 140333,
+      "remote_percentage": 83,
+      "top_skill": "AWS",
+      "period_type": "Projected"
+    },
+    {
+      "country": "UK",
+      "year": 2026,
+      "total_ai_jobs": 69344,
+      "avg_salary_usd": 77388,
+      "remote_percentage": 55,
+      "top_skill": "R",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Canada",
+      "year": 2020,
+      "total_ai_jobs": 27240,
+      "avg_salary_usd": 150343,
+      "remote_percentage": 74,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2021,
+      "total_ai_jobs": 42282,
+      "avg_salary_usd": 78606,
+      "remote_percentage": 75,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2022,
+      "total_ai_jobs": 29777,
+      "avg_salary_usd": 113169,
+      "remote_percentage": 73,
+      "top_skill": "SQL",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2023,
+      "total_ai_jobs": 70396,
+      "avg_salary_usd": 108982,
+      "remote_percentage": 66,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2024,
+      "total_ai_jobs": 72874,
+      "avg_salary_usd": 114911,
+      "remote_percentage": 71,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2025,
+      "total_ai_jobs": 8294,
+      "avg_salary_usd": 99435,
+      "remote_percentage": 45,
+      "top_skill": "SQL",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Canada",
+      "year": 2026,
+      "total_ai_jobs": 4000,
+      "avg_salary_usd": 164795,
+      "remote_percentage": 54,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Australia",
+      "year": 2020,
+      "total_ai_jobs": 70178,
+      "avg_salary_usd": 160724,
+      "remote_percentage": 49,
+      "top_skill": "Azure",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2021,
+      "total_ai_jobs": 50035,
+      "avg_salary_usd": 81059,
+      "remote_percentage": 30,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2022,
+      "total_ai_jobs": 19255,
+      "avg_salary_usd": 160260,
+      "remote_percentage": 26,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2023,
+      "total_ai_jobs": 18251,
+      "avg_salary_usd": 134856,
+      "remote_percentage": 62,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2024,
+      "total_ai_jobs": 23885,
+      "avg_salary_usd": 143568,
+      "remote_percentage": 71,
+      "top_skill": "SQL",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2025,
+      "total_ai_jobs": 61354,
+      "avg_salary_usd": 144132,
+      "remote_percentage": 79,
+      "top_skill": "GCP",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Australia",
+      "year": 2026,
+      "total_ai_jobs": 57347,
+      "avg_salary_usd": 108156,
+      "remote_percentage": 71,
+      "top_skill": "GCP",
+      "period_type": "Projected"
+    }
+  ]
+}

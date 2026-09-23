@@ -1,0 +1,448 @@
+{
+  "job_title_counts": [
+    {
+      "role": "MLOps Engineer",
+      "count": 8439
+    },
+    {
+      "role": "AI Researcher",
+      "count": 8415
+    },
+    {
+      "role": "Data Scientist",
+      "count": 8410
+    },
+    {
+      "role": "Applied Scientist",
+      "count": 8298
+    },
+    {
+      "role": "Data Analyst",
+      "count": 8260
+    },
+    {
+      "role": "Machine Learning Engineer",
+      "count": 8178
+    }
+  ],
+  "role_category_counts": [
+    {
+      "category": "Analytics",
+      "count": 33383
+    },
+    {
+      "category": "Engineering",
+      "count": 16617
+    }
+  ],
+  "by_year": [
+    {
+      "posted_year": 2020,
+      "job_title": "AI Researcher",
+      "period_type": "Historical",
+      "count": 1215
+    },
+    {
+      "posted_year": 2020,
+      "job_title": "Applied Scientist",
+      "period_type": "Historical",
+      "count": 1214
+    },
+    {
+      "posted_year": 2020,
+      "job_title": "Data Analyst",
+      "period_type": "Historical",
+      "count": 1211
+    },
+    {
+      "posted_year": 2020,
+      "job_title": "Data Scientist",
+      "period_type": "Historical",
+      "count": 1163
+    },
+    {
+      "posted_year": 2020,
+      "job_title": "MLOps Engineer",
+      "period_type": "Historical",
+      "count": 1233
+    },
+    {
+      "posted_year": 2020,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Historical",
+      "count": 1169
+    },
+    {
+      "posted_year": 2021,
+      "job_title": "AI Researcher",
+      "period_type": "Historical",
+      "count": 1139
+    },
+    {
+      "posted_year": 2021,
+      "job_title": "Applied Scientist",
+      "period_type": "Historical",
+      "count": 1165
+    },
+    {
+      "posted_year": 2021,
+      "job_title": "Data Analyst",
+      "period_type": "Historical",
+      "count": 1229
+    },
+    {
+      "posted_year": 2021,
+      "job_title": "Data Scientist",
+      "period_type": "Historical",
+      "count": 1229
+    },
+    {
+      "posted_year": 2021,
+      "job_title": "MLOps Engineer",
+      "period_type": "Historical",
+      "count": 1212
+    },
+    {
+      "posted_year": 2021,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Historical",
+      "count": 1154
+    },
+    {
+      "posted_year": 2022,
+      "job_title": "AI Researcher",
+      "period_type": "Historical",
+      "count": 1230
+    },
+    {
+      "posted_year": 2022,
+      "job_title": "Applied Scientist",
+      "period_type": "Historical",
+      "count": 1181
+    },
+    {
+      "posted_year": 2022,
+      "job_title": "Data Analyst",
+      "period_type": "Historical",
+      "count": 1182
+    },
+    {
+      "posted_year": 2022,
+      "job_title": "Data Scientist",
+      "period_type": "Historical",
+      "count": 1201
+    },
+    {
+      "posted_year": 2022,
+      "job_title": "MLOps Engineer",
+      "period_type": "Historical",
+      "count": 1211
+    },
+    {
+      "posted_year": 2022,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Historical",
+      "count": 1130
+    },
+    {
+      "posted_year": 2023,
+      "job_title": "AI Researcher",
+      "period_type": "Historical",
+      "count": 1214
+    },
+    {
+      "posted_year": 2023,
+      "job_title": "Applied Scientist",
+      "period_type": "Historical",
+      "count": 1105
+    },
+    {
+      "posted_year": 2023,
+      "job_title": "Data Analyst",
+      "period_type": "Historical",
+      "count": 1164
+    },
+    {
+      "posted_year": 2023,
+      "job_title": "Data Scientist",
+      "period_type": "Historical",
+      "count": 1153
+    },
+    {
+      "posted_year": 2023,
+      "job_title": "MLOps Engineer",
+      "period_type": "Historical",
+      "count": 1227
+    },
+    {
+      "posted_year": 2023,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Historical",
+      "count": 1172
+    },
+    {
+      "posted_year": 2024,
+      "job_title": "AI Researcher",
+      "period_type": "Historical",
+      "count": 1252
+    },
+    {
+      "posted_year": 2024,
+      "job_title": "Applied Scientist",
+      "period_type": "Historical",
+      "count": 1227
+    },
+    {
+      "posted_year": 2024,
+      "job_title": "Data Analyst",
+      "period_type": "Historical",
+      "count": 1165
+    },
+    {
+      "posted_year": 2024,
+      "job_title": "Data Scientist",
+      "period_type": "Historical",
+      "count": 1249
+    },
+    {
+      "posted_year": 2024,
+      "job_title": "MLOps Engineer",
+      "period_type": "Historical",
+      "count": 1218
+    },
+    {
+      "posted_year": 2024,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Historical",
+      "count": 1201
+    },
+    {
+      "posted_year": 2025,
+      "job_title": "AI Researcher",
+      "period_type": "Projected",
+      "count": 1179
+    },
+    {
+      "posted_year": 2025,
+      "job_title": "Applied Scientist",
+      "period_type": "Projected",
+      "count": 1206
+    },
+    {
+      "posted_year": 2025,
+      "job_title": "Data Analyst",
+      "period_type": "Projected",
+      "count": 1121
+    },
+    {
+      "posted_year": 2025,
+      "job_title": "Data Scientist",
+      "period_type": "Projected",
+      "count": 1202
+    },
+    {
+      "posted_year": 2025,
+      "job_title": "MLOps Engineer",
+      "period_type": "Projected",
+      "count": 1166
+    },
+    {
+      "posted_year": 2025,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Projected",
+      "count": 1169
+    },
+    {
+      "posted_year": 2026,
+      "job_title": "AI Researcher",
+      "period_type": "Projected",
+      "count": 1186
+    },
+    {
+      "posted_year": 2026,
+      "job_title": "Applied Scientist",
+      "period_type": "Projected",
+      "count": 1200
+    },
+    {
+      "posted_year": 2026,
+      "job_title": "Data Analyst",
+      "period_type": "Projected",
+      "count": 1188
+    },
+    {
+      "posted_year": 2026,
+      "job_title": "Data Scientist",
+      "period_type": "Projected",
+      "count": 1213
+    },
+    {
+      "posted_year": 2026,
+      "job_title": "MLOps Engineer",
+      "period_type": "Projected",
+      "count": 1172
+    },
+    {
+      "posted_year": 2026,
+      "job_title": "Machine Learning Engineer",
+      "period_type": "Projected",
+      "count": 1183
+    }
+  ],
+  "salary_by_role": [
+    {
+      "job_title": "AI Researcher",
+      "avg": 110575.0,
+      "median": 107483.0,
+      "min": 58132.0,
+      "max": 167156.0
+    },
+    {
+      "job_title": "Applied Scientist",
+      "avg": 111382.0,
+      "median": 107826.0,
+      "min": 57754.0,
+      "max": 167468.0
+    },
+    {
+      "job_title": "Data Analyst",
+      "avg": 111343.0,
+      "median": 107717.0,
+      "min": 57608.0,
+      "max": 167406.0
+    },
+    {
+      "job_title": "Data Scientist",
+      "avg": 110740.0,
+      "median": 107621.0,
+      "min": 57786.0,
+      "max": 167222.0
+    },
+    {
+      "job_title": "MLOps Engineer",
+      "avg": 110348.0,
+      "median": 107214.0,
+      "min": 58002.0,
+      "max": 167341.0
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "avg": 110817.0,
+      "median": 107528.0,
+      "min": 57780.0,
+      "max": 167431.0
+    }
+  ],
+  "industry_counts": [
+    {
+      "industry": "Tech",
+      "count": 10083
+    },
+    {
+      "industry": "Healthcare",
+      "count": 10029
+    },
+    {
+      "industry": "Retail",
+      "count": 9979
+    },
+    {
+      "industry": "Finance",
+      "count": 9970
+    },
+    {
+      "industry": "Education",
+      "count": 9939
+    }
+  ],
+  "company_type_counts": [
+    {
+      "company_type": "Research Lab",
+      "count": 16910
+    },
+    {
+      "company_type": "MNC",
+      "count": 16576
+    },
+    {
+      "company_type": "Startup",
+      "count": 16514
+    }
+  ],
+  "company_size_counts": [
+    {
+      "company_size": "Medium",
+      "count": 16679
+    },
+    {
+      "company_size": "Small",
+      "count": 16667
+    },
+    {
+      "company_size": "Large",
+      "count": 16654
+    }
+  ],
+  "top_cities": [
+    {
+      "city": "Brisbane",
+      "count": 1909
+    },
+    {
+      "city": "London",
+      "count": 1895
+    },
+    {
+      "city": "Manchester",
+      "count": 1893
+    },
+    {
+      "city": "Vancouver",
+      "count": 1869
+    },
+    {
+      "city": "Birmingham",
+      "count": 1868
+    },
+    {
+      "city": "Melbourne",
+      "count": 1864
+    },
+    {
+      "city": "Sydney",
+      "count": 1852
+    },
+    {
+      "city": "Montreal",
+      "count": 1844
+    },
+    {
+      "city": "Toronto",
+      "count": 1814
+    },
+    {
+      "city": "Frankfurt",
+      "count": 1432
+    },
+    {
+      "city": "Munich",
+      "count": 1405
+    },
+    {
+      "city": "Hamburg",
+      "count": 1398
+    },
+    {
+      "city": "Berlin",
+      "count": 1359
+    },
+    {
+      "city": "Austin",
+      "count": 1178
+    },
+    {
+      "city": "Delhi",
+      "count": 1145
+    }
+  ]
+}

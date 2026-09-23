@@ -1,0 +1,342 @@
+{
+  "skill_frequency": [
+    {
+      "skill": "AWS",
+      "count": 20638,
+      "pct": 9.19
+    },
+    {
+      "skill": "GCP",
+      "count": 20552,
+      "pct": 9.15
+    },
+    {
+      "skill": "TensorFlow",
+      "count": 20552,
+      "pct": 9.15
+    },
+    {
+      "skill": "Azure",
+      "count": 20517,
+      "pct": 9.13
+    },
+    {
+      "skill": "Scikit-learn",
+      "count": 20511,
+      "pct": 9.13
+    },
+    {
+      "skill": "NLP",
+      "count": 20414,
+      "pct": 9.09
+    },
+    {
+      "skill": "Python",
+      "count": 20396,
+      "pct": 9.08
+    },
+    {
+      "skill": "SQL",
+      "count": 20322,
+      "pct": 9.05
+    },
+    {
+      "skill": "Computer Vision",
+      "count": 20313,
+      "pct": 9.04
+    },
+    {
+      "skill": "R",
+      "count": 20205,
+      "pct": 9.0
+    },
+    {
+      "skill": "PyTorch",
+      "count": 20185,
+      "pct": 8.99
+    }
+  ],
+  "category_frequency": [
+    {
+      "category": "ML",
+      "count": 101975
+    },
+    {
+      "category": "Cloud",
+      "count": 61707
+    },
+    {
+      "category": "Programming",
+      "count": 60923
+    }
+  ],
+  "level_frequency": [
+    {
+      "level": "Basic",
+      "count": 74992
+    },
+    {
+      "level": "Intermediate",
+      "count": 74920
+    },
+    {
+      "level": "Advanced",
+      "count": 74693
+    }
+  ],
+  "top_skill_by_country_year": [
+    {
+      "country": "USA",
+      "year": 2020,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2021,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2022,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "top_skill": "AWS",
+      "period_type": "Historical"
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "top_skill": "Computer Vision",
+      "period_type": "Projected"
+    },
+    {
+      "country": "USA",
+      "year": 2026,
+      "top_skill": "Scikit-learn",
+      "period_type": "Projected"
+    },
+    {
+      "country": "India",
+      "year": 2020,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2021,
+      "top_skill": "TensorFlow",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2022,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2023,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2024,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "India",
+      "year": 2025,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "top_skill": "AWS",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Germany",
+      "year": 2020,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2021,
+      "top_skill": "Azure",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2022,
+      "top_skill": "GCP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2023,
+      "top_skill": "AWS",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2024,
+      "top_skill": "Computer Vision",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Germany",
+      "year": 2025,
+      "top_skill": "Azure",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Germany",
+      "year": 2026,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "UK",
+      "year": 2020,
+      "top_skill": "NLP",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2021,
+      "top_skill": "TensorFlow",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2022,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2023,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2024,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "UK",
+      "year": 2025,
+      "top_skill": "AWS",
+      "period_type": "Projected"
+    },
+    {
+      "country": "UK",
+      "year": 2026,
+      "top_skill": "R",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Canada",
+      "year": 2020,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2021,
+      "top_skill": "PyTorch",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2022,
+      "top_skill": "SQL",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2023,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2024,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Canada",
+      "year": 2025,
+      "top_skill": "SQL",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Canada",
+      "year": 2026,
+      "top_skill": "PyTorch",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Australia",
+      "year": 2020,
+      "top_skill": "Azure",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2021,
+      "top_skill": "Python",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2022,
+      "top_skill": "R",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2023,
+      "top_skill": "Scikit-learn",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2024,
+      "top_skill": "SQL",
+      "period_type": "Historical"
+    },
+    {
+      "country": "Australia",
+      "year": 2025,
+      "top_skill": "GCP",
+      "period_type": "Projected"
+    },
+    {
+      "country": "Australia",
+      "year": 2026,
+      "top_skill": "GCP",
+      "period_type": "Projected"
+    }
+  ],
+  "data_note": "skills_demand.job_id does not reliably match ai_jobs.job_id (4.1% overlap). Skills are analyzed as an independent dataset."
+}
