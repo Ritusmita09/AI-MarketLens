@@ -8,6 +8,17 @@
 
 ---
 
+## Live Project Links
+
+| | |
+|---|---|
+| **GitHub Repository** | https://github.com/Ritusmita09/AI-MarketLens |
+| **Live Streamlit Dashboard** | https://ai-marketlens.streamlit.app/ |
+| **Live Web Dashboard (HTML/JS)** | https://ai-marketlens.ritusmitadutta2.workers.dev/ |
+| **Power BI** | Documented — build locally in Power BI Desktop (no public .pbix link) |
+
+---
+
 ## Overview
 
 AI MarketLens is an end-to-end data analytics and machine learning project that analyses a global dataset of AI and Data Science job postings. The project covers the full analytics lifecycle: data ingestion, cleaning, feature engineering, exploratory data analysis, statistical testing, supervised machine learning, unsupervised clustering, and three interactive dashboards (Power BI, Streamlit, HTML/JS).
@@ -241,7 +252,9 @@ Eight-page interactive dashboard.
 ```bash
 streamlit run dashboard/app.py
 ```
-Opens at: http://localhost:8501
+Local URL: http://localhost:8501
+
+**Live Public Dashboard: https://ai-marketlens.streamlit.app/**
 
 Pages: Overview · Salary Intelligence · Job Market · Skills Intelligence · Remote Work · ML Insights · Data Explorer · Methodology
 
@@ -252,6 +265,10 @@ cd web_dashboard
 python -m http.server 8080
 # Open: http://localhost:8080
 ```
+
+Local URL: http://localhost:8080
+
+**Live Public Dashboard: https://ai-marketlens.ritusmitadutta2.workers.dev/**
 
 Seven sections, fully static. Loads pre-aggregated JSON from `web_dashboard/data/`.
 
@@ -323,7 +340,7 @@ AI-Data-Science-Job-Market-Analytics/
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/Ritusmita09/AI-MarketLens
 cd AI-Data-Science-Job-Market-Analytics
 
 # 2. Create a virtual environment (optional but recommended)
@@ -414,7 +431,7 @@ All processed datasets are generated deterministically from the raw source files
 - Fix the skills–job linkage for job-level skill enrichment.
 - Add real-time data ingestion and automated pipeline refresh.
 - Implement NLP-based job description analysis.
-- Deploy Streamlit dashboard to Streamlit Community Cloud.
+- ~~Deploy Streamlit dashboard to Streamlit Community Cloud.~~ ✅ Done — live at https://ai-marketlens.streamlit.app/
 - Build a proper Power BI Service deployment.
 - Add time-series forecasting with more historical data points.
 
