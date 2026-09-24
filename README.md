@@ -246,6 +246,7 @@ Eight-page interactive dashboard for AI & Data Science job market intelligence.
 
 ```bash
 streamlit run dashboard/app.py
+```
 
 ### Web Dashboard (HTML/JS)
 
