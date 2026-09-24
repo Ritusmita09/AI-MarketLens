@@ -113,7 +113,7 @@ for i in range(0, len(dims), 2):
                     xaxis=dict(showgrid=False),
                     yaxis=dict(gridcolor="#e5e7eb"),
                 )
-                st.plotly_chart(fig, key=f"sal_{col_name}")
+                st.plotly_chart(fig, key=f"sal_chart_{col_name}")
 
 # ---------------------------------------------------------------------------
 # Salary by year
