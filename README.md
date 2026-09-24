@@ -235,15 +235,17 @@ Five-page dashboard. Documentation in `powerbi/`.
 
 > No `.pbix` file is generated programmatically. Build the report in Power BI Desktop following `powerbi/POWERBI_SETUP.md`.
 
-### Streamlit
-Eight-page interactive dashboard.
+## Streamlit
+
+Eight-page interactive dashboard for AI & Data Science job market intelligence.
+
+### Live Demo
+**[Launch AI MarketLens →](https://ai-marketlens.streamlit.app/)**
+
+### Run Locally
 
 ```bash
 streamlit run dashboard/app.py
-```
-Opens at: http://localhost:8501
-
-Pages: Overview · Salary Intelligence · Job Market · Skills Intelligence · Remote Work · ML Insights · Data Explorer · Methodology
 
 ### Web Dashboard (HTML/JS)
 
