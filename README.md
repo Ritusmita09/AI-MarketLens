@@ -250,6 +250,14 @@ streamlit run dashboard/app.py
 
 ### Web Dashboard (HTML/JS)
 
+Seven-section static interactive dashboard powered by pre-aggregated JSON data.
+
+### Live Demo
+
+**[Launch AI MarketLens Web Dashboard →](https://ai-marketlens.ritusmitadutta2.workers.dev/)**
+
+### Run Locally
+
 ```bash
 cd web_dashboard
 python -m http.server 8080
